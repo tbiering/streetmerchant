@@ -1,6 +1,7 @@
 import {config} from '../config';
 import {sendDMAndGetResponseAsync as getWithDiscord} from './discord';
 import {sendDMAndGetResponseAsync as getWithSlack} from './slack';
+import {getWithCaptchaSolver} from './captcha-solver';
 import {DMPayload} from '.';
 
 export type CaptchaPayload = DMPayload; // for now this is a 1:1 alias
@@ -24,6 +25,8 @@ export async function getCaptchaInputAsync(
       return await getWithDiscord(payload, timeout);
     case 'slack':
       return await getWithSlack(payload, timeout);
+    case 'captcha-solver':
+      return await getWithCaptchaSolver(payload, timeout);
     default:
       return '';
   }

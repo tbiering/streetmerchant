@@ -692,7 +692,7 @@ export const Computeruniverse: Store = {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5c',
-      url: 'https://www.computeruniverse.net/de/sony-playstation-5-weiss-schwarz-825gb-ssd',
+      url: 'https://www.computeruniverse.net/de/p/90828076',
     },
     {
       brand: 'sony',

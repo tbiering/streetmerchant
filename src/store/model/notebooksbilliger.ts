@@ -224,6 +224,31 @@ export const Notebooksbilliger: Store = {
       series: '3080',
       url: 'https://www.notebooksbilliger.de/pny+geforce+rtx+3080+10gb+xlr8+gaming+revel+epic+x+grafikkarte+677412',
     },
+
+    {
+      brand: 'nvidia',
+      model: 'founders edition',
+      series: '3060ti',
+      url: 'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3060+ti+founders+edition+dsa+726601',
+    },
+    {
+      brand: 'nvidia',
+      model: 'founders edition',
+      series: '3070ti',
+      url: 'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3070+ti+founders+edition+1em6+722902',
+    },
+    {
+      brand: 'nvidia',
+      model: 'founders edition',
+      series: '3080',
+      url: 'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3080+founders+edition+fe+720779',
+    },
+    {
+      brand: 'nvidia',
+      model: 'founders edition',
+      series: '3080ti',
+      url: 'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3080+ti+founders+edition+ewq+722488',
+    },
     {
       brand: 'asus',
       model: 'strix',

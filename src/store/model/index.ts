@@ -130,6 +130,7 @@ import {PCComponentes} from './pccomponentes';
 import {PCDiga} from './pcdiga';
 import {PCKing} from './pcking';
 import {PlayStation} from './playstation';
+import {PlayStationDe} from './playstation-de';
 import {Pny} from './pny';
 import {PowerNO} from './power-no';
 import {ProshopDE} from './proshop-de';
@@ -303,6 +304,7 @@ export const storeList = new Map([
   [PCDiga.name, PCDiga],
   [PCKing.name, PCKing],
   [PlayStation.name, PlayStation],
+  [PlayStationDe.name, PlayStationDe],
   [Pny.name, Pny],
   [PowerNO.name, PowerNO],
   [ProshopDE.name, ProshopDE],
